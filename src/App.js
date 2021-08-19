@@ -26,11 +26,11 @@ export default function App() {
 
 
             <div class="float-right">
-               
+               <p id="inline">
                 <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-angle-left"
                           ></i></a>
                 <a class="btn-floating" href="#multi-item-example" data-slide="next">
-                    <i class="fa fa-angle-right"   ></i></a>
+                    <i class="fa fa-angle-right"   ></i></a></p>
             </div></div>
         </div>
 

@@ -143,3 +143,27 @@ i#book {
   height: fit-content;
   margin-left: 1px;
 }
+@media(max-width:430px){
+  
+  i.fa.fa-angle-left{
+    margin: 5px ;
+  
+    font-size: 20px;
+  }
+  i.fa.fa-angle-right {
+    margin: 5px;
+    margin-left: 5px;
+
+    font-size: 20px;
+}
+
+.float-left h5{
+  font-size:small
+}
+.live{
+  padding: 0px 3px;
+
+  margin :auto 3px;
+  font-size: x-small;
+}
+}
