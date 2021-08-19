@@ -1,0 +1,86 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.btn-floating i {
+  font-size: 30px;
+  color: white;
+  background-color: rgba(46, 46, 248, 0.295);
+  border-radius: 5px;
+  margin: 20px 3px;
+  padding: 3px 8px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#inline {
+  display: flex;
+  flex-direction: row;
+}
+#inline1 i,
+#inline1 p,
+#inline1 {
+  margin-left: 5px;
+
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#inline1 p {
+  color: black;
+}
+.grad1 i,
+.grad2 i,
+#inline p {
+  margin: 5px;
+  color: white;
+}
+.grad1 {
+  background-image: linear-gradient(
+    to right,
+    rgba(79, 153, 250, 0.774),
+    rgba(9, 11, 158, 0.877)
+  );
+}
+
+.grad2 {
+  background-image: linear-gradient(
+    to right,
+    rgba(10, 243, 29, 0.616),
+    rgba(7, 146, 88, 0.815)
+  );
+}
+
+.card {
+  width: fit-content;
+}
+
+.fa-caret-square-o-right {
+  font-size: 15px;
+  background-color: rgba(214, 19, 19, 0.192);
+  color: rgba(255, 0, 0, 0.336);
+}
+
+#inline1 .fa-sticky-note {
+  font-size: 15px;
+  color: rgba(255, 0, 0, 0.596);
+}
+#book {
+  font-size: 17px;
+  margin-left: 3px;
+  color: rgb(238, 166, 10);
+  background-color: rgba(238, 166, 10, 0.137);
+}
+
+.col-md-4 {
+  float: left;
+}
+
+i#book {
+  margin-left: 3px;
+}
