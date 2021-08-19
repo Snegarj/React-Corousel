@@ -1,15 +1,69 @@
+body{
+  background-color: rgba(113, 113, 248, 0.116);
+}
+
+.col-md-4{
+  transition: 0.5s;
+  border-radius: 10px;
+  margin-top:30px;
+ 
+}
+.col-md-4:hover{
+  transform: scale(1.07);
+  cursor: pointer;
+ 
+}
+
+.card-img-top
+{
+  border-radius: 10px 10px 0px 0px;
+
+}
+.mb-2{
+  margin:12px;
+  border-radius: 10px;
+}
 h1,
 p {
   font-family: Lato;
 }
-
+.controls-top{
+  margin-top: 30px;
+ 
+}
 .btn-floating i {
   font-size: 30px;
   color: white;
   background-color: rgba(46, 46, 248, 0.295);
   border-radius: 5px;
-  margin: 20px 3px;
+  margin: 20px 10px;
   padding: 3px 8px;
+}
+
+.live{
+  color:white;
+  background-color: red;
+  padding:0px 7px;
+  margin:auto 5px ;
+  border-radius: 5px;
+}
+.float-left{
+  margin:auto 3px ; 
+}
+.live span , .live p {
+  margin:auto auto;
+}
+ 
+.live span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  color:rgb(180, 174, 174);
+  background-color: white;
+}
+.float-left  #inline h5{
+  font-weight: 700;
+  color:black
 }
 .center {
   margin-left: auto;
@@ -83,4 +137,9 @@ p {
 
 i#book {
   margin-left: 3px;
+}
+.card{
+  width: fit-content;
+  height: fit-content;
+  margin-left: 1px;
 }
